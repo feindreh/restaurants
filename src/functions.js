@@ -8,6 +8,6 @@ function makeCss(rules){
 }
 
 
-const functions = {makeCss()}
+const functions = {makeCss}
 
 export default functions;
