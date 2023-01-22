@@ -1,5 +1,5 @@
 
 const gridMain = document.createElement("div");
-gridMain.setAttribute("id", "gridMain");
+gridMain.setAttribute("id", "grid-main");
 
 export default gridMain;
