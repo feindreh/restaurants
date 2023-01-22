@@ -1,4 +1,3 @@
-import outlay from "./outlay.js"
+import outlay from "./outlay.js";
 
-document.querySelector('#container').append(outlay)
-
+document.querySelector("#container").append(outlay);
