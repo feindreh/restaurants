@@ -1,5 +1,3 @@
 node_modules/
 dist/main.js.map
 dist/main.js
-.eslintrc.js
-.gitignore
