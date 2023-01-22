@@ -8,7 +8,19 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
 }
 
 
+
 #grid-main{
     display:grid;
     grid-template:200px 200px 200px / 1fr;
+}
+
+#header,#content,#footer{
+    border:solid 3px black;
+}
+
+#content{
+    background-image: url("./img/pexels-pixabay-531880.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size:cover;
 }
