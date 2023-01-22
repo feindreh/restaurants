@@ -17,7 +17,9 @@
   },
   "homepage": "https://github.com/feindreh/restaurants#readme",
   "devDependencies": {
+    "css-loader": "^6.7.3",
     "eslint": "^8.32.0",
+    "style-loader": "^3.3.1",
     "webpack": "^5.75.0",
     "webpack-cli": "^5.0.1"
   },
@@ -62,6 +64,7 @@
     "json-parse-even-better-errors": "^2.3.1",
     "json-schema-traverse": "^0.4.1",
     "kind-of": "^6.0.3",
+    "loader": "^2.1.1",
     "loader-runner": "^4.3.0",
     "locate-path": "^5.0.0",
     "merge-stream": "^2.0.0",
