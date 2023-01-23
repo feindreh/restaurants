@@ -4,10 +4,15 @@ export default function homeFunction(){
 	const home = document.createElement("div");
 	home.setAttribute("class","generated");
 	
-	
-
 	const header = makeContentDiv();
+	header.setAttribute("class","headline");
 	header.innerText = "Ich bin die Überschrift";
+
+	const content = document.createElement("div");
+	content.setAttribute("class","content");
+
+
+
 
 	const introduction = makeContentDiv();
 	introduction.innerText ="Ich bin die Einführung";
@@ -21,8 +26,8 @@ export default function homeFunction(){
 
 
 
-
-	home.append(header,introduction,workingHours,location);
+	content.append(introduction,workingHours,location);
+	home.append(header,content);
 
 	return home;
 }

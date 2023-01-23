@@ -5,7 +5,14 @@ export default function contactFunction(){
 	contact.setAttribute("class","generated");
 
 	const header = makeContentDiv();
+	header.setAttribute("class","headline");
 	header.innerText = "Ich bin die Überschrift";
+
+	const content = document.createElement("div");
+	content.setAttribute("class","content");
+
+
+
 
 	const bagel1 = makeContentDiv();
 	bagel1.innerText = "I am Mr Best Bagel.";
@@ -16,7 +23,7 @@ export default function contactFunction(){
 	const bagel3 = makeContentDiv();
 	bagel3.innerText = "Just call me Bagly. \n Mr Best Bagel is my Father.";
 
-
-	contact.append(header,bagel1,bagel2,bagel3);
+	content.append(bagel1,bagel2,bagel3);
+	contact.append(header,content);
 	return contact;
 }

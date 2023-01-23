@@ -58,11 +58,22 @@ html,body,#container,#grid-main{
     display:flex;
     flex-direction: column;
     gap:30px;
-    justify-content: center;
+    justify-content:flex-start;
     background-color: var(--main-bg-color);
-    width:40%;
+    width:500px;
+    padding-top:50px;
+}
+.headline{
+    text-align:center;
 }
 
+.content{
+    flex:1;
+    display:flex;
+    justify-content: space-around;
+    flex-direction: column;
+    gap:25px;
+}
 .contentBlock{
     text-align: center;
 }
