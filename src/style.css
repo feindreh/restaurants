@@ -44,6 +44,12 @@ body,#container,#grid-main{
 
 /*Content*/
 
+#content{
+    display: flex;
+    justify-content: center;
+    padding:40px;
+}
+
 
 /*Footer*/
 

@@ -1,5 +1,5 @@
 import content from "./content";
-import homeFunction from "./home";
+import homeFunction from "./functions/homeFunction";
 
 const header = document.createElement("div");
 header.setAttribute("id", "header");
