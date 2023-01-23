@@ -13,13 +13,14 @@ html,body,#container,#grid-main{
 /*variables */
 :root {
     --main-bg-color: rgb(39, 167, 172);
+    font-size: 22px;
   }
 
   /*Grid Main layout*/
 
 #grid-main{
     display:grid;
-    grid-template:50px 1fr 80px / 1fr;
+    grid-template:50px 1fr 50px / 1fr;
 }
 
 
@@ -65,6 +66,7 @@ html,body,#container,#grid-main{
 }
 .headline{
     text-align:center;
+    font-size: 30px;
 }
 
 .content{
