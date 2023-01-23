@@ -54,7 +54,7 @@ html,body,#container,#grid-main{
 #content{
     display: flex;
     justify-content: center;
-    padding:60px;
+    padding-top:60px;
 }
 
 .generated{
@@ -63,9 +63,10 @@ html,body,#container,#grid-main{
     gap:30px;
     justify-content:flex-start;
     background-color: rgba(39, 168, 172, 0.726);
-    width:500px;
     padding:50px;
     border-radius: 40px;
+    width:50%;
+    min-width: 300px;
 }
 .headline{
     text-align:center;
@@ -83,6 +84,7 @@ html,body,#container,#grid-main{
     justify-content: space-around;
     flex-direction: column;
     gap:25px;
+    align-items: center;
 }
 .contentBlock{
     text-align: center;
@@ -91,6 +93,7 @@ html,body,#container,#grid-main{
     padding: 15px;
     font-size: 18px;
     border-radius: 40px;
+    width:65%;
 }
 
 
