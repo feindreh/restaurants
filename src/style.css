@@ -61,7 +61,7 @@ html,body,#container,#grid-main{
     justify-content:flex-start;
     background-color: var(--main-bg-color);
     width:500px;
-    padding-top:50px;
+    padding:50px;
 }
 .headline{
     text-align:center;
