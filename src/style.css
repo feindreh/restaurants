@@ -12,7 +12,9 @@ html,body,#container,#grid-main{
 
 /*variables */
 :root {
-    --main-bg-color: rgb(39, 167, 172);
+    --main-bg-color: rgb(39, 168, 172);
+    --borderColor:rgb(16, 57, 58);
+    --contentColor:rgb(26, 216, 223);
     font-size: 22px;
   }
 
@@ -60,13 +62,19 @@ html,body,#container,#grid-main{
     flex-direction: column;
     gap:30px;
     justify-content:flex-start;
-    background-color: var(--main-bg-color);
+    background-color: rgba(39, 168, 172, 0.726);
     width:500px;
     padding:50px;
+    border-radius: 40px;
 }
 .headline{
     text-align:center;
     font-size: 30px;
+    font-weight: bolder;
+    border:solid 5px var(--borderColor) ;
+    background-color: var(--contentColor);
+    padding:15px;
+    border-radius: 40px;
 }
 
 .content{
@@ -78,6 +86,11 @@ html,body,#container,#grid-main{
 }
 .contentBlock{
     text-align: center;
+    border:solid 10px var(--borderColor) ;
+    background-color: var(--contentColor);
+    padding: 15px;
+    font-size: 18px;
+    border-radius: 40px;
 }
 
 
