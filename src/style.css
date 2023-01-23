@@ -10,6 +10,13 @@ html,body,#container,#grid-main{
     min-height:100vh;
 }
 
+/*variables */
+:root {
+    --main-bg-color: rgb(7, 76, 78);
+  }
+
+  /*Grid Main layout*/
+
 #grid-main{
     display:grid;
     grid-template:80px 1fr 80px / 1fr;
@@ -17,14 +24,7 @@ html,body,#container,#grid-main{
 
 
 #header,#content,#footer{
-    background-color:rgb(4, 57, 66);
-}
-
-#content{
-    background-image: url("./img/rain.jpg");
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size:cover;
+    background-color:var(--main-bg-color);
 }
 
 /*Header*/
@@ -42,6 +42,13 @@ html,body,#container,#grid-main{
 /*Content*/
 
 #content{
+    background-image: url("./img/rain.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size:cover;
+}
+
+#content{
     display: flex;
     justify-content: center;
     padding:40px;
@@ -52,6 +59,7 @@ html,body,#container,#grid-main{
     flex-direction: column;
     gap:30px;
     justify-content: center;
+    background-color: var(--main-bg-color);
 }
 
 
