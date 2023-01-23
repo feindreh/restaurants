@@ -12,7 +12,7 @@ html,body,#container,#grid-main{
 
 /*variables */
 :root {
-    --main-bg-color: rgb(7, 76, 78);
+    --main-bg-color: rgb(10, 92, 95);
   }
 
   /*Grid Main layout*/
@@ -51,7 +51,7 @@ html,body,#container,#grid-main{
 #content{
     display: flex;
     justify-content: center;
-    padding:40px;
+    padding:60px;
 }
 
 .generated{
@@ -60,6 +60,11 @@ html,body,#container,#grid-main{
     gap:30px;
     justify-content: center;
     background-color: var(--main-bg-color);
+    width:50%;
+}
+
+.contentBlock{
+    text-align: center;
 }
 
 
