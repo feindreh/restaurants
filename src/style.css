@@ -6,11 +6,8 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
     font-size: 100%;
     vertical-align: baseline;
 }
-html{
-    height:100vh;
-}
-body,#container,#grid-main{
-    height:100%;
+html,body,#container,#grid-main{
+    min-height:100vh;
 }
 
 #grid-main{
@@ -48,6 +45,13 @@ body,#container,#grid-main{
     display: flex;
     justify-content: center;
     padding:40px;
+}
+
+.generated{
+    display:flex;
+    flex-direction: column;
+    gap:30px;
+    justify-content: center;
 }
 
 
